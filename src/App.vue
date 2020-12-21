@@ -2,7 +2,7 @@
   <div id="app">
     Last message: <pre>{{ message }}</pre>
     Cache: <pre>{{ cache }}</pre>
-    Log: <span>{{ log }}</span>
+    Log: <span>{{ log }}</span><br/>
     <input v-model="message">
     <button v-on:click="newMessage">new Message</button>
   </div>
