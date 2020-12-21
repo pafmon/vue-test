@@ -40,7 +40,7 @@ export default {
                 
                 var key ="k"+randomString(4);
 
-                newCache[key] = view.message + " " + (new Date()).toISOString();
+                newCache[key] = view.message + "_" + (new Date()).toISOString();
                 
                 var values = (new URLSearchParams(newCache)).toString();
 
